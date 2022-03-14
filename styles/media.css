@@ -1,0 +1,323 @@
+@media screen and (max-width: 1190px){
+
+    #back{
+        top: 260%;
+        font-size: 40px;
+        left: 20%;
+    }
+
+    #next{
+        top: 260%;
+        font-size: 40px;
+        right: 20%;
+    }
+}
+
+@media screen and (max-width: 1330px){
+    
+    .ul__menu li{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .ul__language li{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .ul__menu li a{
+        margin-left: 30px;
+    }
+    
+    .ul__language li a{
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 1220px){
+    
+    .ul__menu li a{
+        margin-left: 20px;
+    }
+    
+    .ul__language li a{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1155px){
+    
+    .cv-education{
+        margin: 10px auto 10px;
+        float: none;
+        max-width: 600px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .cv-experience{
+        margin: 10px auto 10px;
+        float: none;
+        max-width: 600px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    .say-hello{
+        margin-top: 80px;
+    }
+    
+    .avatar-menu img{
+        width: 150px;
+    }
+    
+    .section-apresent{
+        margin-bottom: 3%;
+    }
+    
+    .ul-icon-menu{
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 1040px){
+
+    #back{
+        visibility: hidden;
+    }
+
+    #next{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 1120px){
+    
+    .ul__menu{
+        margin: 0 10% 0 3%;
+    }
+    
+    .ul__menu li a{
+        margin-left: 20px;
+    }
+    
+    .ul__language li a{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1020px){
+    
+    .ul__menu{
+        margin: 0 5% 0 0;
+    }
+    
+    .ul__menu li a{
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    
+    .ul__language li a{
+        margin-left: 9px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    
+    .avatar-menu img{
+        width: 80px;
+    }
+    
+    .section-apresent{
+        margin-bottom: 2%;
+    }
+    
+    .ul-icon-menu{
+        margin-top: 230px;
+    }
+    
+    .avatar-main{
+        padding: 0;
+        margin: 0;
+        width: 1px;
+        height: 1px;
+    }
+    
+    .avatar-main img{
+        visibility: hidden;
+    }
+    
+    .about-me-content{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 999px){
+    
+    #btn-mobile{
+        display: block;
+        visibility: visible;
+    }
+    
+    #menu{
+        display: block;
+        position: absolute;
+        width: 95%;
+        margin-left: 5%;
+        margin-right: 5%;
+        top: 85px;
+        left: 0px;
+        background: #ecf0ff;
+        height: 0px;
+        transition: .6s;
+        z-index: 2000;
+        visibility: hidden;
+        overflow-y: hidden;
+        box-shadow: 0 0 15px #ccc;
+    }
+    
+    .ul__menu a{
+       display: block;
+    }
+    
+    #nav.active #menu{
+        height: calc(70vh - 85px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    
+    #menu a{
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .05);
+    }    
+}
+
+@media screen and (max-width: 888px){
+    
+    .avatar-menu img{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 885px){
+    
+    .section-apresent{
+        margin-top: 0;
+    }
+    
+    .ul-icon-menu{
+        margin-top: 8px;
+    }
+    
+    .skills-1{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+    }
+    
+    .skills-2{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    
+    .slide{
+        height: 400px;
+        width: 450px;
+    }
+    
+    .image img{
+        height: 400px;
+        width: 450px;
+    }
+    
+    .dots{
+    width: 450px;
+    margin-top: 420px;
+}
+
+@media screen and (max-width: 720px){
+    
+    .title-portfolio{
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width: 705px){
+    
+    .avatar-menu{
+        width: 1px;
+        height: 1px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .avatar-menu img{
+        width: 1px;
+        height: 1px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header__apresent{
+        float: none;
+        width: 100%;
+    }
+    
+    .button-CV{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 685px){
+    
+    .avatar-address{
+        visibility: hidden;
+        padding: 0;
+        margin: 0;
+        width: 0;
+        height: 0;
+    }
+    
+    .address{
+        text-align: center;
+        float: none;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .icon-address li a{
+        padding-right: 25px;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 580px){
+    
+    .title-portfolio{
+        margin-top: 320px;
+    }
+}
+
+@media screen and (max-width: 530px){
+    
+    .header__apresent p{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    
+    .title-portfolio{
+        margin-top: 380px;
+    }
+}
