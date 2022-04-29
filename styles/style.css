@@ -302,7 +302,7 @@ ul li a:hover{
     font-family: 'Source Sans Pro', Bold 700, sans-serif;
 }
 
-.fa-shield{
+.fa-dumbbell{
     margin-right: 6px;
 }
 
@@ -637,6 +637,32 @@ ul li a:hover{
     line-height: 1px;
 }
 
+.cv-modern-web{
+    background-color: #e8edff;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 185px;
+    box-shadow: 0 0 15px #ccc;
+}
+
+.cv-modern-web p:nth-child(2){
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1px;
+}
+
+.cv-modern-web p:nth-child(1){
+    font-weight: 600;
+    color: #59595c;
+}
+
+.cv-modern-web p:last-child{
+    font-weight: 600;
+    color: #59595c;
+    line-height: 1px;
+}
+
 /* MAIN - HIRE ME */
 
 .say-hello{
@@ -708,6 +734,19 @@ ul li a:hover{
 .icon-address li{
     display: inline-block;
     padding: 5px;
+}
+
+/* ARROW TO THE TOP*/
+.fa-circle-chevron-up {
+    margin-top: 0%;
+    margin-left: 90%;
+    font-size: 45px;
+    color: #ff984d;
+}
+
+.fa-circle-chevron-up:hover{
+    color: #ff9f4d;
+
 }
 
 /* FOOTER */

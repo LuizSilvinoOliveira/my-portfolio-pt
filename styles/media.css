@@ -1,15 +1,7 @@
-@media screen and (max-width: 1190px){
+@media screen and (max-width: 1500px){
 
-    #back{
-        top: 260%;
-        font-size: 40px;
-        left: 20%;
-    }
-
-    #next{
-        top: 260%;
-        font-size: 40px;
-        right: 20%;
+    .say-hello{
+        margin-top: 5%;
     }
 }
 
@@ -26,12 +18,17 @@
     }
     
     .ul__menu li a{
-        margin-left: 30px;
+        margin-left: 20px;
     }
     
     .ul__language li a{
         margin-left: 30px;
     }
+
+    .say-hello{
+        margin-top: 5%;
+    }
+
 }
 
 @media screen and (max-width: 1220px){
@@ -42,6 +39,25 @@
     
     .ul__language li a{
         margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1190px){
+
+    #back{
+        top: 260%;
+        font-size: 40px;
+        left: 20%;
+    }
+
+    #next{
+        top: 260%;
+        font-size: 40px;
+        right: 20%;
+    }
+
+    .say-hello{
+        margin-top: 5%;
     }
 }
 
@@ -224,10 +240,19 @@
         margin-right: auto;
         line-height: 5px;
     }
+
+    #portfolio{
+        padding-top: 150px;
+    }
 }
 
 @media screen and (max-width: 750px){
     
+    .title-portfolio{
+        padding-bottom: 0;
+        padding-top: 15px;
+    }
+
     .slide{
         height: 400px;
         width: 450px;
@@ -241,6 +266,7 @@
     .dots{
     width: 450px;
     margin-top: 420px;
+    }
 }
 
 @media screen and (max-width: 720px){
@@ -298,6 +324,13 @@
     .icon-address li a{
         padding-right: 25px;
         padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 605px){
+
+    #portfolio{
+        padding-top: 200px;
     }
 }
 
